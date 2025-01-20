@@ -1,0 +1,82 @@
+body{
+  font-family: "Montserrat", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+.upload{
+  font-weight: 700;
+  width: 250px;
+  height: 150px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: rgb(38, 38, 38);
+  border: 1px solid mediumaquamarine;
+  color: mediumaquamarine;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.selected_file{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(37, 37, 37);
+  border: 1px solid mediumaquamarine;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgb(58, 101, 87);
+}
+
+.selected_file p{
+  font-weight: 600;
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+.selected_file button{
+  color: mediumaquamarine;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.selected_file button:hover{
+  color: red;
+}
+
+.submit{
+  margin-top: 20px;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 20px;
+  background-color: mediumaquamarine;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+img{
+  width: 250px;
+  margin-top: 20px;
+  border: 2px solid mediumaquamarine;
+  border-radius: 20px;
+}

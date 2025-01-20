@@ -1,0 +1,32 @@
+.body{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(10, 10, 10, 0.5);
+    
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-evenly;
+    background-color: rgb(30, 30, 30);
+    border: 2px solid mediumaquamarine;
+    border-radius: 20px;
+    width: 800px;
+    height: 300px;
+}
+
+.text .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
