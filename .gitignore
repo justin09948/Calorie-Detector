@@ -5,5 +5,6 @@ backend/ML/data/food101/train/
 backend/ML/data/food101/test/
 backend/ML/data/food101/images/
 backend/ML/data/test_images/
+backend/ML/models/
 
 node_modules/
