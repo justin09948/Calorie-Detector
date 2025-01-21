@@ -1,0 +1,5 @@
+# Django
+.venv
+*.sqlite3
+train/
+test/
